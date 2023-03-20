@@ -1,5 +1,33 @@
-h1 { text-align: center }
+html {
+    background: url("images/cyberpunkSun.png");
+    background-size: cover;
+}
 
-button{
-    background-color: #4CAF50;
+.mainTitle { text-align: center; }
+
+.btnwrap {
+    text-align: center;
+    
+  }
+
+.btnwrapCalc {
+    text-align: center;
+    
+  }
+
+
+.button1 {
+    text-align: center;
+    color: white;
+    padding: 6px 6px;
+    font-size: 30px;
+    background-color: #575050;
+    border-radius: 10px;
+    border: 2px solid #000000;
+    transition-duration: 0.4s;
+}
+
+.button1:hover {
+    background-color: #000000;
+    color:#ffffff;
 }

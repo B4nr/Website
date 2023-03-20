@@ -1,21 +1,31 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <link rel="stylesheet" href="styles.css">
-  <script src="myscripts.js"></script> 
-</head>
-<body>
 
 <title>
     Banr's Portfolio
 </title>
 
+<head>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+
 <body>
-    <centre>
-        <h1>Welcome to my website. Here is my programming portfolio.<br>
+    <h1 class="mainTitle">
+        Welcome to my website. Here is my programming portfolio.<br>
         I've created it all from scratch.<br>
-    </centre>
+    </h1>
+
+    <p class="btnwrap">
+        <button class="button1" onclick="goToCalc()">
+            Calculator
+        </button>
+        <button class="button1" onclick="goToAgeCalc()">
+            Age Calculator
+        </button>
+      </p>
+
+    <script src="app.js"></script>
 </body>
-<button name="calculator">
-    Calculator
-</button>
+
+
+</html>
