@@ -5,7 +5,10 @@ html {
 
 .mainTitle { text-align: center; }
 
-
+.transparentBox {
+  width: 300px;
+  border: solid red 2px;
+}
 
 .btnwrap {
     text-align: center;
