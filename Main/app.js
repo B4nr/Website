@@ -2,8 +2,8 @@ function goToCalc (){
     window.location.href = "calculator.html";
 }
 
-function goToAgeCalc (){
-    window.location.href = "ageCalc.html";
+function goToTriplex (){
+    window.location.href = "games/triplex/triplex.html";
 }
 
 function goToMain () {
