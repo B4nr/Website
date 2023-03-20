@@ -17,7 +17,26 @@
 
 .mainTitle { 
     text-align: center;
-    color:rgb(163, 163, 163);
+    color:rgb(0, 255, 21);
+  }
+
+.subTitle {
+    text-align: center;
+    position: relative;
+    bottom: 5px;
+    color:rgb(0, 255, 21);
+}
+
+.transparentBackground {
+    margin: auto;
+    position: relative;
+    top: 80px;
+    width: 400px;
+    height: 69px;
+    background: transparent;
+    border: 2px solid rgba(162, 0, 255, 0.5);
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
   }
 
 .btnwrapCalc {
@@ -49,7 +68,7 @@
 .form {
     text-align: center;
     position: relative;
-    top: 50px;
+    top: 80px;
     background-color: transparent;
     zoom: 1;
     filter: alpha(opacity="50");
@@ -62,4 +81,24 @@
 .enter {
     position:relative;
     top: 10px;
+}
+
+.enter {
+    text-align: center;
+    color: magenta;
+    padding: 6px 6px;
+    font-size: 150px;
+    transition-duration: 0.4s;
+    position: relative;
+    margin: auto;
+    position: relative;
+    background: transparent;
+    border: 2px solid rgba(162, 0, 255, 0.5);
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+}
+
+.enter:hover {
+    background-color: #000000;
+    color:purple;
 }
