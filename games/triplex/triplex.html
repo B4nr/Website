@@ -15,8 +15,8 @@
     </h1>
     </div>
     <div class="transparentBackground">
-    <h1 class="subTitle">
-        Sum = 3 and Product = 1
+    <h1 class="subTitle" id="vars">
+        <script>writeVariables()</script>
     </h1>
     </div>
     <p class="btnwrapCalc">
@@ -30,7 +30,7 @@
             <input class="formEditor" type="text">
             <input class="formEditor" type="text">
             <br>
-            <input class="enter" type="submit" value="CHECK">
+            <input class="enter" type="submit" value="CHECK" onclick="writeVariables()">
         </form>
     </div>
     <script src="triplex.js"></script>
